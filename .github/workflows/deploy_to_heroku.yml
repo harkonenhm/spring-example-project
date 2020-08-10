@@ -25,4 +25,4 @@ jobs:
         docker build -t spring .
         docker tag spring registry.heroku.com/dev-ops-ex3-2/web
         docker push registry.heroku.com/dev-ops-ex3-2/web
-        heroku container:release -a web 
+        heroku container:release -a dev-ops-ex3-2  web 
